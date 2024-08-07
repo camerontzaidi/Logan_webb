@@ -53,27 +53,45 @@ Used to represent the distribution and intensity of data across two variables, s
 
 ## Main Results
 ### Line Graphs
-Analyzed trends in pitch velocity, spin rate, pitch type frequency, and WHIP over time. 
+- **Pitch Velocity:** Logan Webb’s pitch velocity for each pitch type remained generally stable over time.
+- **Pitch Spin Rate:** Webb’s pitch spin rate for each pitch type remained generally stable over time.
+- **Pitch Type Frequency:** The change up and sinker had a strong upwards trend in frequency, while the four-seam fastball had a strong decline.
+- **WHIP (Walks and Hits Per Inning Pitched):** Webb’s WHIP was above the population average until 2021, after which it remained below average.
+- **ERA (Earned Run Average):** Webb’s ERA remained higher than the population mean throughout the analysis period, though it showed a noticeable decrease from 2020 to 2021.
 
 ### Odds Ratio Table
-Calculated the odds ratio of a hit given each pitch type over each season.
+- The **sweeper** consistently had an odds ratio below 1, indicating it was Webb’s best performing pitch.
+- The **change up** had an odds ratio greater than 1 for every season except 2020, indicating it performed poorly relative to other pitches.
+- The **four-seam fastball** had an odds ratio below 1 from 2021 to 2024, suggesting it was effective, though its sample size was small.
 
 ### Heat Maps
-Visualized pitch placement and hit events by season and pitch type.
+- Webb’s pitch location by pitch type evolved very little over the seasons.
+- Areas with higher pitch frequencies tended to coincide with higher hit frequencies, indicating consistent pitch placement.
 
 ## Discussion
 ### Strength of Analysis
-The analysis comprehensively examines various critical aspects of pitching, providing nuanced evaluations of Webb’s performance.
+- The analysis comprehensively examines various critical aspects of Webb’s pitching, including pitch velocity, pitch type frequency, WHIP, ERA, strike frequencies, pitch location densities, and hit location densities.
+- Odds ratios provided insights into the effectiveness of Webb’s pitches.
 
 ### Limitations
-Acknowledges limitations such as the disparity in pitch frequencies and the unique pitching style of Logan Webb, which may limit generalizability.
+- Disparity in pitch frequencies affects the reliability of performance metrics for less frequently used pitches.
+- Webb’s unique pitching style may limit the generalizability of the findings.
+- The focus on stable pitch location was appropriate for Webb but may not apply to other pitchers.
 
 ## Conclusion and Outlook
 ### Future Research Directions
-Proposes areas for further exploration, such as advanced pitch metrics, comparative studies, and the impact of external factors.
+- **Advanced Pitch Metrics:** Explore pitch movement, release point consistency, and spin axis.
+- **Comparative Studies:** Compare Webb’s performance trends with other top-performing pitchers.
+- **Impact of External Factors:** Investigate the influence of weather conditions, opposing team strategies, and game location.
+- **Mental and Physical Conditioning:** Evaluate the impact of mental resilience training and physical conditioning.
+- **Longitudinal Analysis:** Extend the analysis to include more seasons.
+- **Player-Specific Adjustments:** Analyze Webb’s strategy adjustments against different batters and game situations.
 
 ### Conclusion
-Summarizes key findings, including strategic pitch selection and stable pitch velocity and location, while suggesting potential areas for Webb’s performance improvement.
+- **Strategic Pitch Selection:** Webb increased his use of the change up and sinker while reducing reliance on the four-seam fastball.
+- **Improved WHIP:** Webb consistently maintained a WHIP below the population average from 2021 onwards.
+- **Stable Pitch Velocity and Location:** Webb’s performance improvements were driven by strategic changes in pitch selection rather than changes in pitch speed or location.
+- **Higher ERA:** Despite improvements in WHIP, Webb’s ERA remained higher than the population mean, indicating room for further strategic refinement.
 
 ## Appendix
 Contains additional details, initial brainstorming, data requests, preprocessing steps, and code used for the analysis.
